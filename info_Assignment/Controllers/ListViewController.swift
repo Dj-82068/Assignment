@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Kingfisher
+//import Kingfisher
 
 class ListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
@@ -83,7 +83,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
         cell.profileImageView.image = UIImage.init(named: "icon-user")
         cell.Title.text = "Title"
-        cell.DetailedLabel.text = "This is a dummy text just to check that table view is working properly and cells are ecpanding dynamically."
+        cell.DetailedLabel.text = "This is a dummy text just to check that table view is working properly and cells are expanding dynamically."
         
         return cell
     }
